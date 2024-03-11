@@ -58,7 +58,8 @@ class _HomePageState extends State<HomePage> {
                 openMaximized: true,
                 title: 'Flutter Ai',
               ));
-              webview.launch("http://localhost:3000");
+              webview.launch(
+                  "https://github.com/ameyreghu/desktop_wevb_view_test.git");
             },
             child: Text('Launch')),
       ),
